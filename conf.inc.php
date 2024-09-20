@@ -1,0 +1,37 @@
+<?php
+
+$config = new stdClass;
+$config->admin_token = 'T54ppZA32KJewf3s';
+$config->page_title = 'I Bring It - For the Feast';
+$config->image = 'images/ibringit.png';
+$config->title = 'I Bring It';
+$config->subtitle = 'For the Feast';
+$config->text = 'We woud be very happy if you brought something for our feast.';
+$config->info = 'Please send us additional information and allergenes.';
+$config->new = 'New';
+$config->bringit_text = 'I bring it!';
+$config->open_free_object_input_placeholder = 'My proposal';
+$config->open_free_name_input_placeholder = 'Who are you?';
+$config->open_free_name_input_info = 'Please choose a name, we can associate ;).';
+$config->open_free_cancel = 'Cancel';
+$config->brought_title = 'Our current list';
+$config->brought_info = 'We provide for drinks.';
+
+$config->percentage_good = 1.0;
+$config->percentage_okay = 0.5;
+
+$config->color_top = "#ffca00";
+$config->color_image = "#fff6eb";
+$config->color_info = "#ffad4f";
+$config->color_count = "#00d1b2";
+$config->color_target_good = "#48c78e";
+$config->color_target_okay = "#ffb70f";
+$config->color_target_bad = "#ff6685";
+$config->color_name = "#66d1ff";
+$config->color_new = "#ffb70f";
+$config->color_bottom = "#a9e458";
+$config->color_bottom_info = "#ffca00";
+
+$data = json_decode(file_get_contents("ibringit.json"))
+
+?>
