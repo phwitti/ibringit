@@ -1,7 +1,7 @@
 <?php
 
 $config = new stdClass;
-$config->admin_token = 'T54ppZA32KJewf3s';
+$config->admin_token = '';
 $config->page_title = 'I Bring It - For the Feast';
 $config->image = 'images/ibringit.png';
 $config->title = 'I Bring It';
